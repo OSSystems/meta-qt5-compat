@@ -1,0 +1,40 @@
+#+STARTUP: indent
+#+LANGUAGE: en
+#+TITLE: Qt5 Compatibility Layer for the OpenEmbedded/Yocto Project
+#+AUTHOR: O.S. Systems Software
+#+EMAIL: contato@ossystems.com.br
+#+LATEX_CLASS: article
+#+OPTIONS: date:nil
+#+OPTIONS: toc:nil
+
+* Document revision
+:PROPERTIES:
+:UNNUMBERED: t
+:END:
+
+This document is intended to be updated as we add new features and
+information. Below is the history of changes this document had:
+
+| Version | Description     | Release date |
+|---------+-----------------+--------------|
+|     1.0 | Initial release |   06-18-2020 |
+
+The latest revision for this document can be seen [[https://github.com/OSSystems/meta-qt5-compat][here]]
+
+* Compatibility
+
+The ~meta-qt5-compat~ layer currently supports the OpenEmbedded/Yocto Project 2.4
+(branch rocko) and Qt5 5.15, which is provided by ~meta-qt5~ at ~master~ branch.
+
+* Setup instructions
+
+This layer requires the inclusion of ~meta-qt5~ on your OpenEmbedded/Yocto Project
+platform to allow the use of Qt5 recipes.
+
+You can easily do that modifying your ~<build>/conf/bblayers.conf~ file to include
+this specific layer.
+
+* References
+- [[https://github.com/CollaborativeWritersHub/heading-for-the-yocto-project/releases/download/18.10.0/Heading-for-the-Yocto-Project.pdf][Heading for the Yocto Project]]
+- [[https://www.amazon.com/dp/B0751HKPB4][Embedded Linux Development using Yocto Projects - Second Edition]]
+- [[https://www.yoctoproject.org/docs/3.1/ref-manual/ref-manual.html#detailed-supported-distros][Yocto Project Reference Manual]]
